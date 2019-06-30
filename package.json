@@ -4,12 +4,14 @@
   "main": "./bundle",
   "scripts": {
     "build": "tsc --build tsconfig.json",
-    "test": "npm run lint && mocha --recursive release/**/*Test*.js",
+    "test": "npm run lint && npm run copy-resources && mocha --recursive release/**/*Test*.js",
+    "scratch" : "npm run build && node release/scratch.js",
     "build-test": "npm run build && npm run test",
     "test-withreport": "mocha --recursive release/**/*Test*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./testresults/test-results.xml",
     "lint": "tslint -p tsconfig.json -t stylish",
     "copy-package": "copyfiles package.json ./release/",
-    "package": "npm run copy-package && npm pack ./release"
+    "package": "npm run copy-package && npm pack ./release",
+    "copy-resources" : "copyfiles -u 1 src/**/resources/* ./release/"
   },
   "author": {
     "url": "https://www.meeteric.net",
@@ -19,7 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "@types/lodash": "^4.14.103",
-    "@types/node": "^9.4.6"
+    "@types/node": "^9.4.6",
+    "meeteric-ts": "^0.1.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
