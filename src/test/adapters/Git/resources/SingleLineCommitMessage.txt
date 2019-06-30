@@ -1,0 +1,5 @@
+commit b4e33582a233ce82253d6ae88105fb7873184931
+Author: Eric Maino <eric.maino@microsoft.com>
+Date:   Thu Jan 3 12:00:00 2019 -0800
+
+    Single line message

@@ -1,0 +1,35 @@
+commit bc92a15bc900acb04b867f8124f1dce90e6ad03c
+Author: yzhang <7588612+yzhang-gh@users.noreply.github.com>
+Date:   Mon Jun 17 10:38:36 2019 +0100
+
+    📝
+
+commit 276aa19fdf51ee26624d699ba9beeb11d4472544
+Author: Pierre <PierreMarchand20@users.noreply.github.com>
+Date:   Mon Jun 17 11:27:44 2019 +0200
+
+    🔀 bug fixed using katex macros (#473)
+    
+    * katex macros added when printing to html
+    * bug fixed using katex macros
+
+commit 0d31c9c3f404ba210541aa8e2b01d3d55d720f66
+Author: yzhang <7588612+yzhang-gh@users.noreply.github.com>
+Date:   Sun Jun 16 18:02:14 2019 +0100
+
+    💄
+
+commit 319f390c49c8249e7de823ac7fbc2e66a8920467
+Author: yzhang <7588612+yzhang-gh@users.noreply.github.com>
+Date:   Sun Jun 16 17:41:35 2019 +0100
+
+    🔖 v2.4.0
+    fix #434, fix #415, fix #430, fix #426, fix #446
+    fix #237, fix #307
+
+commit 62deb6587e8ee6a146c92897c52a5cd404329f51
+Author: yzhang <7588612+yzhang-gh@users.noreply.github.com>
+Date:   Sun Jun 16 16:40:07 2019 +0100
+
+    ✨ #237, #307 new command `toggleList`
+    cycle through ``, `- `, `* `, `+ `, `1. `, `1) `
