@@ -106,7 +106,6 @@
     "no-unnecessary-semicolons": true,
     "no-unused-expression": true,
     "no-unused-imports": false,
-    "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-var-requires": true,
     "no-this-assignment": true,
